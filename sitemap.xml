@@ -21,4 +21,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dobest.fi/FAQ.html" />
     <xhtml:link rel="alternate" hreflang="fi" href="https://www.dobest.fi/FAQ.html?lang=fi" />
     <lastmod>2025-06-10</lastmod>
-    <changefreq>monthly</changef
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
