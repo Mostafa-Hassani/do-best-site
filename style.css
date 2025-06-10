@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -18,15 +18,28 @@ body {
 
 .logo {
   width: 200px;
+  height: auto;
   margin-bottom: 30px;
 }
 
 h1 {
   font-size: 42px;
   font-weight: 700;
-    margin-top: 0;
+  margin-top: 0;
   margin-bottom: 20px;
   line-height: 1.2;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .description {
@@ -50,4 +63,79 @@ h1 {
 .contact i {
   margin-right: 10px;
   color: #00ffcc;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.language-switcher select {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #003087;
+  cursor: pointer;
+}
+
+.language-switcher select:focus {
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ffcc;
+  color: #003087;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #00ccaa;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  background-color: #00ffcc;
+  color: #003087;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00ccaa;
 }
